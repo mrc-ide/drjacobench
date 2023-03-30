@@ -1,0 +1,24 @@
+Package: drjacobench
+Type: Package
+Title: Bench mark drjacoby
+Version: 0.1.0
+Authors@R: c(
+  person(
+    given = "Peter",
+    family = "Winskill",
+    role = c('aut', 'cre'),
+    email = 'p.winskill@ic.ac.uk'
+  )
+  )
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Remotes:
+  mrc-ide/drjacoby
+Imports: 
+    bench,
+    drjacoby
+RoxygenNote: 7.2.3
